@@ -1,4 +1,5 @@
 import React from 'react';
+//import Vue from 'vue';
 export const Nav00DataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },
@@ -142,8 +143,17 @@ export const Nav00DataSource = {
   mobileMenu: { className: 'header0-mobile-menu' },
 };
 export const Banner00DataSource = {
-  wrapper: { className: 'banner0' },
+  wrapper: {
+    className: 'banner0' ,
+  },
   textWrapper: { className: 'banner0-text-wrapper' },
+  bgvideo:{
+    className:'bg-video',
+    children:(
+        // eslint-disable-next-line react/style-prop-object
+        <video src='http://www.tencent.com/video/index-video.mp4' style={{width:1500+'px',height:600+'px',margin:0+'px',overflow:'hidden'}} autoPlay='true' loop/>
+    ),
+  },
   title: {
     className: 'banner0-title k8phjewafig-editor_css',
     children: (
@@ -177,12 +187,13 @@ export const Content00DataSource = {
     children: [
       {
         name: 'title',
-        children: (
-          <span>
-            <p>图书馆</p>
-          </span>
-        ),
+        className: 'title-h1',
+        children: '图书馆',
       },
+        {
+            name:'content',
+            children:'这里的有声书与众不同，它们透过耳朵提供一套剧场化的阅读；引导你读懂那些平常只可远观的巨著',
+        }
     ],
   },
   childWrapper: {
@@ -275,12 +286,13 @@ export const Teams20DataSource = {
     children: [
       {
         name: 'title',
-        children: (
-          <span>
-            <p>美术馆</p>
-          </span>
-        ),
+        children: '美术馆',
+        classname:'title-h1'
       },
+        {
+          name:'content',
+          children:'中国山水、中古教堂壁画还有希腊雕像；打破阻挡你的墙'
+        },
     ],
   },
   block: {
@@ -295,22 +307,21 @@ export const Teams20DataSource = {
         image: {
           name: 'image',
           className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+          children:'https://dss2.bdstatic.com/6Ot1bjeh1BF3odCf/it/u=3110020397,1183629603&fm=74&app=80&f=JPEG&size=f121,140?sec=1880279984&t=1b41602569fba8bfd21062775c5eb4c5'
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: '徐悲鸿' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '艺术巨匠 美术教育家',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '由于他在绘画理论和实践上的卓越成就以及他在美术教育方面所做的巨大贡献，他被国际评论誉为“中国近代绘画之父”',
             },
           ],
         },
@@ -324,21 +335,21 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            'https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=3550259133,2919355623&fm=74&app=80&f=JPEG&size=f121,140?sec=1880279984&t=3603984ba12ebe7d2db258cb837d633d',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '韩勇' },
+            { name: 'title', className: 'teams2-title', children: '张大千' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '中国泼墨画家 书法家',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
+              children: '20 世纪50年代，张大千游历世界，获得巨大的国际声誉，被西方艺坛赞为“东方之笔”',
             },
           ],
         },
@@ -352,21 +363,21 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=2320941054,1369290666&fm=74&app=80&f=JPEG&size=f121,140?sec=1880279984&t=703947764a5c92d97be9f67b17cdb21d',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: '齐白石' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '近现代中国绘画大师 世界文化名人',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '擅画花鸟、虫鱼、山水、人物，笔墨雄浑滋润，色彩浓艳明快，造型简练生动，意境淳厚朴实。所作鱼虾虫蟹，天趣横生',
             },
           ],
         },
@@ -380,21 +391,21 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=261063735,2104496993&fm=74&app=80&f=JPEG&size=f121,140?sec=1880279984&t=46d7a52ccf0027d736efd4f82aee7f41',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: '吴昌硕' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '“后海派”代表 清末海派四大家',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '他集“诗、书、画、印”为一身，融金石书画为一炉，被誉为“石鼓篆书第一人”、“文人画最后的高峰”。在绘画、书法、篆刻上都是旗帜性人物',
             },
           ],
         },
@@ -408,21 +419,21 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            'https://dss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=2069877202,2441417297&fm=74&app=80&f=JPEG&size=f121,140?sec=1880279984&t=ea3efe550643b267c74c6fe4114cdb9e',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '韩勇' },
+            { name: 'title', className: 'teams2-title', children: '黄胄' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '中国画艺术大师，社会活动家，收藏家',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
+              children: '中国第一座大型民办艺术馆——炎黄艺术馆缔造者；中国画研究院、中国工艺美术馆筹建者；黄胄美术基金会设立者；黄胄独创性地将速写融入中国画，开启全新的人物画笔墨范式，拓展了中国画艺术语言',
             },
           ],
         },
@@ -436,21 +447,21 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://dss2.bdstatic.com/6Ot1bjeh1BF3odCf/it/u=4237633178,3265010326&fm=74&app=80&f=JPEG&size=f121,140?sec=1880279984&t=3ecad4db7a758c4854413983add38470',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: '李可染' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '近代杰出的画家、诗人，齐白石的弟子',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '自幼即喜绘画，13岁时学画山水。43岁任中央美术学院教授，49岁为变革山水画，行程数万里旅行写生。72岁任中国美术家协会副主席、中国画研究院院长。晚年用笔趋于老辣。擅长画山水、人物、牛',
             },
           ],
         },
@@ -464,21 +475,21 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=786927801,2822649466&fm=74&app=80&f=JPEG&size=f121,140?sec=1880279984&t=a92c756dd1d9ebe8806de18351e26431',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: '潘天寿' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '现代画家 教育家',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '受教于经亨颐、李叔同等人。其写意花鸟初学吴昌硕，后取法石涛、八大，曾任中国美术家协会副主席、浙江美术学院院长等职',
             },
           ],
         },
@@ -492,21 +503,21 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            'https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=682993410,1637126598&fm=74&app=80&f=JPEG&size=f121,140?sec=1880279984&t=0e1f572287073b2b6862fc9a9d585aec',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '韩勇' },
+            { name: 'title', className: 'teams2-title', children: '林风眠' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '画家 艺术教育家 国立艺术院院长',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: '语雀是一款优雅高效的在线文档编辑与协同工具。',
+              children: '自幼喜爱绘画，历任国立北平艺术专科学校校长、国立艺术学院 院长、中国美术家协会上海分会副主席',
             },
           ],
         },
@@ -520,21 +531,21 @@ export const Teams20DataSource = {
           name: 'image',
           className: 'teams2-image',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=4202186067,1859951425&fm=74&app=80&f=JPEG&size=f121,140?sec=1880279984&t=52671b06535a1aac9c911263335b0ed2',
         },
         titleWrapper: {
           className: 'teams2-textWrapper',
           children: [
-            { name: 'title', className: 'teams2-title', children: '叶秀英' },
+            { name: 'title', className: 'teams2-title', children: '李苦禅' },
             {
               name: 'content',
               className: 'teams2-job',
-              children: '公司+职位 信息暂缺',
+              children: '书画家 美术教育家 近现代大写意花鸟画宗师',
             },
             {
               name: 'content1',
               className: 'teams2-content',
-              children: 'AntV 是蚂蚁金服全新一代数据可视化解决方案。',
+              children: '1923年拜齐白石为师。曾任杭州艺专教授，中央美术学院教授，中国美术家协会理事，中国画研究院院务委员。擅画花鸟和鹰，晚年常作巨幅通屏',
             },
           ],
         },
@@ -551,10 +562,10 @@ export const Feature50DataSource = {
     children: [
       {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
+        children: '音乐厅',
         className: 'title-h1',
       },
-      { name: 'content', children: '基于阿里云计算强大的基础资源' },
+      { name: 'content', children: '让你听到真正的古典、民谣、摇滚和爵士等不同风格的音乐背后的故事和时代' },
     ],
   },
   tabsWrapper: { className: 'content7-tabs-wrapper' },
@@ -697,15 +708,13 @@ export const Content90DataSource = {
       },
       {
         name: 'title',
-        children: (
-          <span>
-            <span>
-              <p>生活馆</p>
-            </span>
-          </span>
-        ),
+        children: '生活馆',
         className: 'title-h1',
       },
+        {
+            name:'content',
+            children:'饮食也好，服装也罢，生活一切皆有学问；轻松愉快地做个讲究的人',
+        },
     ],
   },
   block: {

@@ -20,6 +20,7 @@ class Content extends React.PureComponent {
           <div {...titleWrapper}>
             {titleWrapper.children.map(getChildrenToRender)}
           </div>
+          <a-divider />
           <OverPack {...overPackData}>
             <QueueAnim
               type="bottom"

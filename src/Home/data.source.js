@@ -138,6 +138,23 @@ export const Nav00DataSource = {
           ],
         },
       },
+      {
+        name: 'item4',
+        className: 'header0-item',
+        children: {
+          href: '/login',
+          children: [
+            {
+              children: (
+                  <span>
+                  <p>你好！</p>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
     ],
   },
   mobileMenu: { className: 'header0-mobile-menu' },

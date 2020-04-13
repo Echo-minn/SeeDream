@@ -10,7 +10,7 @@ export const Content50DataSource = {
         name: 'title',
         children: (
           <>
-            <p>相关论文</p>
+            <p>上新图书</p>
           </>
         ),
         className: 'title-h1',
@@ -41,14 +41,13 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/timg%20%287%29.jpeg',
+              'https://bkimg.cdn.bcebos.com/pic/50da81cb39dbb6fd9aaed6430424ab18962b37d9?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UyNzI=,xp_5,yp_5',
           },
           content: {
             children: (
               <>
                 <a href="https://www.nature.com/articles/s41746-019-0191-0">
-                  Artificial intelligence for precision medicine in
-                  neurodevelopmental&nbsp;
+                  一千零一夜——feat.梁文道&nbsp;
                 </a>
               </>
             ),
@@ -64,12 +63,12 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/timg%20%281%29.jpeg',
+                'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586798537761&di=26b176d752be6ee0efa659cc42c5ea04&imgtype=0&src=http%3A%2F%2Fs1.sinaimg.cn%2Fbmiddle%2F4d8a72df3cf65ef370a90',
           },
           content: {
             children: (
               <>
-                <a href="https://www.nature.com/articles/s41599-019-0278-x">Social and juristic challenges of artificial intelligence</a>
+                <a href="https://www.nature.com/articles/s41599-019-0278-x">自由的黎明：文艺复兴经典——feat.徐贲</a>
               </>
             ),
           },
@@ -84,13 +83,13 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/timg%20%282%29.jpeg',
+              'https://hbimg.huabanimg.com/8ce99a7136857b1954f34a74931918ec3252c2531d6b3-MJxe5N_fw658',
           },
           content: {
             children: (
               <>
                 <a href="https://www.nature.com/articles/d41586-019-02939-0">
-                  Raging robots, hapless humans: the AI dystopia<br />
+                  开卷八分钟——feat.梁文道<br />
                 </a>
               </>
             ),
@@ -106,12 +105,12 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/timg%20%283%29.jpeg',
+              'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3603335716,2520215820&fm=26&gp=0.jpg',
           },
           content: {
             children: (
               <>
-                <a href="https://www.nature.com/articles/s41582-019-0287-9">Towards artificial intelligence for clinical stroke care</a>
+                <a href="https://www.nature.com/articles/s41582-019-0287-9">现代的诞生：启蒙运动经典——feat.徐贲</a>
               </>
             ),
           },
@@ -126,12 +125,12 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/timg%20%284%29.jpeg',
+              'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1273036342,4155190806&fm=15&gp=0.jpg',
           },
           content: {
             children: (
               <>
-                <a href="https://www.nature.com/articles/s41591-019-0629-6">Artificial intelligence aims to improve cancer screenings</a>
+                <a href="https://www.nature.com/articles/s41591-019-0629-6">20世纪中国小说——feat.徐子东</a>
               </>
             ),
           },
@@ -146,14 +145,13 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/timg%20%285%29.jpeg',
+              'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1874683588,739302971&fm=26&gp=0.jpg',
           },
           content: {
             children: (
               <>
                 <a href="https://www.nature.com/articles/s41562-019-0670-y">
-                  Psychological reactions to human versus robotic job
-                  replacement
+                  帝国的开端：十部经典里的大汉王朝——feat.杨照
                 </a>
               </>
             ),
@@ -171,12 +169,12 @@ export const Content50DataSource = {
           },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/timg%20%286%29.jpeg',
+              'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1372749353,4246658577&fm=26&gp=0.jpg',
           },
           content: {
             children: (
               <>
-                <a href="https://www.nature.com/articles/d42473-019-00331-0">Artificial intelligence turns to antibody selection</a>
+                <a href="https://www.nature.com/articles/d42473-019-00331-0">漫画实验室：打开你的思维次元——feat.陶朗歌</a>
               </>
             ),
           },
@@ -216,7 +214,7 @@ export const Content51DataSource = {
         name: 'title',
         children: (
           <>
-            <p>TOP高校和企业</p>
+            <p>TOP热门作家</p>
           </>
         ),
         className: 'title-h1',
@@ -247,12 +245,12 @@ export const Content51DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/f9dcd100baa1cd115b2eca5cb612c8fcc3ce2d35.png',
+              'http://wx1.sinaimg.cn/large/781f5b3dly1fy6bqaqe9bj20rs0fm4qa.jpg',
           },
           content: {
             children: (
               <>
-                <a href="http://www.mit.edu/">麻省理工学院</a>
+                <a href="http://www.mit.edu/">杨照</a>
               </>
             ),
           },
@@ -272,7 +270,7 @@ export const Content51DataSource = {
           content: {
             children: (
               <>
-                <a href="https://www.cmu.edu/">卡内基·梅隆大学</a>
+                <a href="https://www.cmu.edu/">陶朗歌</a>
               </>
             ),
           },
@@ -287,12 +285,12 @@ export const Content51DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/fcfaaf51f3deb48f03e560a7ff1f3a292df5783f.png',
+              'https://bkimg.cdn.bcebos.com/pic/b812c8fcc3cec3fdd46c0b86dc88d43f869427f6?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg',
           },
           content: {
             children: (
               <>
-                <a href="https://www.berkeley.edu/">加州大学伯克利分校</a>
+                <a href="https://www.berkeley.edu/">徐贲</a>
               </>
             ),
           },
@@ -307,12 +305,12 @@ export const Content51DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/32fa828ba61ea8d38d157274980a304e251f588e.png',
+              'https://bkimg.cdn.bcebos.com/pic/86d6277f9e2f0708f4982edfe224b899a801f254?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2U4MA==,xp_5,yp_5',
           },
           content: {
             children: (
               <>
-                <a href="https://www.stanford.edu/">斯坦福大学</a>
+                <a href="https://www.stanford.edu/">白先勇</a>
               </>
             ),
           },
@@ -327,12 +325,12 @@ export const Content51DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/203fb80e7bec54e75b4e27ddb2389b504ec26a56.png',
+              'http://5b0988e595225.cdn.sohucs.com/images/20171229/865e69cf18114a35ab7d1e10355a85be.jpeg',
           },
           content: {
             children: (
               <>
-                <a href="https://www.apple.com/">苹果</a>
+                <a href="https://www.apple.com/">梁文道</a>
               </>
             ),
           },
@@ -347,12 +345,12 @@ export const Content51DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/%E6%88%AA%E5%B1%8F2019-11-2317.37.51.png',
+              'http://img3.imgtn.bdimg.com/it/u=533326472,3104103943&fm=26&gp=0.jpg',
           },
           content: {
             children: (
               <>
-                <a href="https://www.google.com/">谷歌</a>
+                <a href="https://www.google.com/">詹青云</a>
               </>
             ),
           },
@@ -367,12 +365,12 @@ export const Content51DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/a8773912b31bb05102868750397adab44aede02c.jpg',
+              'https://bkimg.cdn.bcebos.com/pic/574e9258d109b3deaf24b89dc6bf6c81810a4caf?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg',
           },
           content: {
             children: (
               <>
-                <a href="https://www.amazon.com/">亚马逊</a>
+                <a href="https://www.amazon.com/">严飞</a>
               </>
             ),
           },
@@ -387,12 +385,12 @@ export const Content51DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://couseraccess.oss-cn-beijing.aliyuncs.com/images/4ec2d5628535e5ddabdbbe0778c6a7efcf1b6276.png',
+              'https://bkimg.cdn.bcebos.com/pic/b3b7d0a20cf431ad1f2eea3b4936acaf2edd9830?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UxMTY=,xp_5,yp_5',
           },
           content: {
             children: (
               <>
-                <a href="https://www.huawei.com/">华为</a>
+                <a href="https://www.huawei.com/">郝景芳</a>
               </>
             ),
           },

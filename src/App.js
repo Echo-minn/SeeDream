@@ -5,9 +5,10 @@ import { enquireScreen } from 'enquire-js';
 import Header from './Layout/Nav0';
 import Footer from './Layout/Footer0';
 import Home from './Home';
-import AIResearch from './AIResearch';
-import AILab from './AILab/AILab';
-import AIPaper from './AIPaper';
+import ArtGallery from './AIResearch';
+import Library from './AIPaper';
+import keepAlive from './keepAlive'
+import Concert from './Concert'
 import News0 from './AINews/news/news0';
 import News1 from './AINews/news/news1';
 import News2 from './AINews/news/news2';
@@ -86,16 +87,17 @@ class App extends Component{
           <div>
             <Header dataSource={Nav00DataSource} isMobile={this.isMobile} />
             <Route exact path="/" component={Home} />
-            <Route exact path="/AIResearch" component={AIResearch}/>
-            <Route exact path="/AILab" component={AILab}/>
-            <Route exact path="/AIPaper" component={AIPaper}/>
+            <Route exact path="/ArtGallery" component={ArtGallery}/>
+            <Route exact path="/Library" component={Library}/>
+            <Route exact path="/keepAlive" component={keepAlive}/>
+            <Route exact path="/Concert" component={Concert}/>
             <Route exact path="/AINews/News0" component={News0}/>
             <Route exact path="/AINews/News1" component={News1}/>
             <Route exact path="/AINews/News2" component={News2}/>
             <Route exact path="/AINews/News3" component={News3}/>
             <Route exact path="/AINews/News4" component={News4}/>
             <Route exact path="/AINews/News5" component={News5}/>
-            <Route exact path="/iTeam" component={iTeam}/>
+            <Route exact path="/seeTeam" component={iTeam}/>
             <Route exact path="/login" component={LoginForm}/>
             <Route exact path="/register" component={WrappedRegistrationForm}/>
             <Footer dataSource={Footer00DataSource} isMobile={this.isMobile} />

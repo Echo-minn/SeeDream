@@ -54,12 +54,12 @@ export default class Concert extends React.Component {
         dataSource={Feature80DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Pricing1
+     /* <Pricing1
         id="Pricing1_0"
         key="Pricing1_0"
         dataSource={Pricing10DataSource}
         isMobile={this.state.isMobile}
-      />,
+      />,*/
     ];
     return (
       <div

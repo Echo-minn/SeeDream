@@ -31,7 +31,8 @@ class Banner extends React.PureComponent {
                     <div key="content" {...dataSource.content}>
                         {dataSource.content.children}
                     </div>
-                    <Button ghost key="button" {...dataSource.button}>
+
+                    <Button ghost src={dataSource.button.href} key="button" {...dataSource.button}>
                         {dataSource.button.children}
                     </Button>
                 </QueueAnim>

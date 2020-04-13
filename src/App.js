@@ -7,8 +7,9 @@ import Footer from './Layout/Footer0';
 import Home from './Home';
 import ArtGallery from './AIResearch';
 import Library from './AIPaper';
-import keepAlive from './keepAlive'
-import Concert from './Concert'
+import keepAlive from './keepAlive';
+import Concert from './Concert';
+import Learnmore from './Learnmore';
 import News0 from './AINews/news/news0';
 import News1 from './AINews/news/news1';
 import News2 from './AINews/news/news2';
@@ -91,6 +92,7 @@ class App extends Component{
             <Route exact path="/Library" component={Library}/>
             <Route exact path="/keepAlive" component={keepAlive}/>
             <Route exact path="/Concert" component={Concert}/>
+            <Route exact path="/Learnmore" component={Learnmore}/>
             <Route exact path="/AINews/News0" component={News0}/>
             <Route exact path="/AINews/News1" component={News1}/>
             <Route exact path="/AINews/News2" component={News2}/>

@@ -159,7 +159,11 @@ export const Banner00DataSource = {
       </span>
     ),
   },
-  button: { className: 'banner0-button', children: 'Learn More' },
+  button: {
+    className: 'banner0-button',
+    children: 'Learn More' ,
+    href:'./Learnmore'
+  },
 };
 export const Content00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },
@@ -890,7 +894,7 @@ export const Footer00DataSource = {
     className: 'copyright',
     children: (
         <span>
-        ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
+        ©2020 by <a href="https://motion.ant.design">See Your Dream in Voice</a> All Rights
         Reserved
       </span>
     ),

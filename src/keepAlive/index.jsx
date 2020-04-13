@@ -5,11 +5,9 @@ import { enquireScreen } from 'enquire-js';
 
 import Banner2 from './Banner2';
 import Pricing2 from './Pricing2';
-import Teams0 from './Teams0';
 import {
   Banner20DataSource,
   Pricing20DataSource,
-  Teams00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -59,12 +57,6 @@ export default class keepAlive extends React.Component {
         id="Pricing2_0"
         key="Pricing2_0"
         dataSource={Pricing20DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Teams0
-        id="Teams0_0"
-        key="Teams0_0"
-        dataSource={Teams00DataSource}
         isMobile={this.state.isMobile}
       />,
     ];

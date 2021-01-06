@@ -6,7 +6,7 @@
     "@ant-design/icons": "^4.0.5",
     "ant-design-vue": "^1.5.1",
     "antd": "^3.14.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "enquire-js": "^0.2.1",
     "rc-banner-anim": "^2.2.2",
     "rc-queue-anim": "^1.6.12",
